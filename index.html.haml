@@ -1,0 +1,19 @@
+!!! Strict
+%html{html_attrs('en')}
+  %head
+    %meta{ :content => "text/html;charset=UTF-8", "http-equiv" => "content-type" }
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => 'css/base.css' }
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => 'css/style.css' }
+    %title Groundwork
+  %body
+    #container
+      #header
+        %h1
+          %a{ :href => 'index.html' } Groundwork
+        #main-navigation
+          %ul
+            %li.active
+              %a{ :href => 'index.html' } Groundwork
+          .clear
+      #main
+        %p Hola mundo
