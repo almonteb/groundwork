@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+
+$:.unshift File.join(File.dirname(__FILE__), '/../lib')
+require 'groundwork'
+Groundwork::Application.run!(*ARGV)

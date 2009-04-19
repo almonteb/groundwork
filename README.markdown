@@ -105,4 +105,4 @@ $ rails <name app> -m groundwork/base.rb
 * [formtastic](http://github.com/justinfrench/formtastic/tree/master)
 
 ## Licence
-Copyright 2009 Hector E. Gomez M. Released under the MIT license
+Copyright (c) 2009 Hector E. Gomez M. Released under the MIT license
